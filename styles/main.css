@@ -757,13 +757,13 @@ table {
   width: 100%;
 }
 
-/* line 28, ../../src/styles/_base.scss */
+/* line 29, ../../src/styles/_base.scss */
 .group {
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 32, ../../src/styles/_base.scss */
+/* line 33, ../../src/styles/_base.scss */
 body {
   margin: 0;
   color: #393838;
@@ -771,28 +771,30 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
+  background-color: #393838;
 }
 @media (max-width: 1250px) {
-  /* line 32, ../../src/styles/_base.scss */
+  /* line 33, ../../src/styles/_base.scss */
   body {
     font-size: 16px;
   }
 }
 @media (max-width: 630px) {
-  /* line 32, ../../src/styles/_base.scss */
+  /* line 33, ../../src/styles/_base.scss */
   body {
     font-size: 12px;
   }
 }
 
-/* line 49, ../../src/styles/_base.scss */
+/* line 51, ../../src/styles/_base.scss */
 .content {
   position: relative;
   margin: 30px auto 0;
   max-width: 680px;
   width: 55%;
+  background-color: #ccffff;
 }
-/* line 55, ../../src/styles/_base.scss */
+/* line 58, ../../src/styles/_base.scss */
 .content a {
   color: #393838;
   -webkit-transition: color 0.2s;
@@ -800,29 +802,29 @@ body {
   -o-transition: color 0.2s;
   transition: color 0.2s;
 }
-/* line 59, ../../src/styles/_base.scss */
+/* line 62, ../../src/styles/_base.scss */
 .content a:hover {
-  color: #578cdb;
+  color: #178282;
 }
 @media (max-width: 1250px) {
-  /* line 49, ../../src/styles/_base.scss */
+  /* line 51, ../../src/styles/_base.scss */
   .content {
     margin: 65px auto 25px;
     width: 86%;
   }
 }
 @media (max-width: 630px) {
-  /* line 49, ../../src/styles/_base.scss */
+  /* line 51, ../../src/styles/_base.scss */
   .content {
     margin: 50px auto 15px;
   }
 }
 
-/* line 74, ../../src/styles/_base.scss */
+/* line 77, ../../src/styles/_base.scss */
 .pagination {
   width: 100%;
 }
-/* line 77, ../../src/styles/_base.scss */
+/* line 80, ../../src/styles/_base.scss */
 .pagination a {
   font-size: 1.5em;
   font-weight: bold;
@@ -830,12 +832,12 @@ body {
   text-decoration: none;
 }
 
-/* line 85, ../../src/styles/_base.scss */
+/* line 88, ../../src/styles/_base.scss */
 .older {
   float: left;
 }
 
-/* line 89, ../../src/styles/_base.scss */
+/* line 92, ../../src/styles/_base.scss */
 .newer {
   float: right;
 }
@@ -1061,7 +1063,7 @@ nav {
   z-index: 100;
   height: 100%;
   top: 0;
-  background: #578cdb;
+  background: #178282;
   width: 250px;
 }
 /* line 9, ../../src/styles/_nav.scss */
@@ -1133,7 +1135,7 @@ nav a:hover {
 /* line 68, ../../src/styles/_nav.scss */
 .nav-links {
   list-style: none;
-  background: #578cdb;
+  background: #178282;
   padding-left: 40px;
   font-size: 1.4em;
 }
